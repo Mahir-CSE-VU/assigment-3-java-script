@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Current File",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run student.js",
+      "program": "${workspaceFolder}/student.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run dataTypes.js",
+      "program": "${workspaceFolder}/dataTypes.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run calculator.js",
+      "program": "${workspaceFolder}/calculator.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run passOrFail.js",
+      "program": "${workspaceFolder}/passOrFail.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run forLoop.js",
+      "program": "${workspaceFolder}/forLoop.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run whileLoop.js",
+      "program": "${workspaceFolder}/whileLoop.js",
+      "console": "integratedTerminal"
+    }
+  ]
+}
